@@ -58,3 +58,17 @@
 # print(completion.choices[0].message)
 
 
+# import random
+# from src.response_generation import PROMPT_SAMPLES, get_prompt   # (you can create a tiny loader similar to `get_prompt`)
+
+# sample = random.choice(PROMPT_SAMPLES["question"])
+# # response = llm.generate(system_prompt=get_prompt("question"), user_input=sample)
+# print(sample)
+
+
+# import wave
+# from piper import PiperVoice
+
+# voice = PiperVoice.load("./offline_models/en_US-hfc_female-medium.onnx")
+# with wave.open("test.wav", "wb") as wav_file:
+#     voice.synthesize_wav("Welcome to the world of speech synthesis!", wav_file)
